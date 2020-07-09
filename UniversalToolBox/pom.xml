@@ -17,7 +17,7 @@
 		<!-- Java library/framework version control -->
 		<version.spring>5.0.1.RELEASE</version.spring>
 		<version.mssql>6.2.1.jre8</version.mssql>
-		<version.mysql>5.1.34</version.mysql>
+		<version.mysql>8.0.16</version.mysql>
 		<version.java-compiler>1.8</version.java-compiler>
 	</properties>
 
