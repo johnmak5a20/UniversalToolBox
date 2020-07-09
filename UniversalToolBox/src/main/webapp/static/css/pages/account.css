@@ -1,0 +1,75 @@
+.account-navigation
+{
+	left: 0;
+	background-color: #001a33;
+	width: 200px;
+	height: 100%;
+	position: fixed;
+}
+
+.account-navigation-head
+{
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.account-profile-img
+{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: 2px solid rgba(0, 0, 0, 1);
+	overflow: hidden;
+}
+
+.account-user-name
+{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.account-menu-list
+{
+	display: flex;
+	justify-content: center;
+}
+
+.account-menu-list > ul
+{
+	width: 100%;
+	padding: 0;
+}
+
+.account-menu-list li
+{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding-left: 30px;
+}
+
+.account-menu-list li:hover
+{
+	background-color: rgba(119, 255, 102, 0.75);
+	cursor: pointer;
+}
+
+.account-menu-list span
+{
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.account-main-content
+{
+	height: 100%;
+	padding-left: 200px;
+}

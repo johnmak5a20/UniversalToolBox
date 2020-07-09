@@ -1,0 +1,65 @@
+@import '~font-awesome/css/font-awesome.css';
+
+*
+{
+	box-sizing: border-box;
+}
+
+html, body
+{
+	width:100%;
+	height: 100%;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+input, button
+{
+	outline: none;
+	border: none;
+}
+
+input[type="file"]
+{
+	display: none;
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+select
+{
+	display: none;
+}
+
+.txt-large
+{
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.txt-medium
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.txt-small
+{
+	font-size: 13px;
+	color: #ffffff;
+}
